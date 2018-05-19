@@ -9,5 +9,6 @@ puts board
 def won?(board)
  horizontal_win
  verical_win
- 
+ diag_win
+
 end
