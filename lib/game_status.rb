@@ -10,4 +10,6 @@ def won?(board)
 WIN_COMBINATIONS(board)
 end
 
-top_row_win
+top_row_win = [0,1,2]
+mid_row_win = [3,4,5]
+bottom_row_win = [6,7,8]
