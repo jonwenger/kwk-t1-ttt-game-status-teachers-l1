@@ -5,7 +5,7 @@ end
 
 # Define your WIN_COMBINATIONS constant
 board = ["X", "X", "X", " ", " ", " ", " ", " ", " "]
-
+puts board
 won?(board)
 
 
