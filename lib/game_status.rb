@@ -8,5 +8,4 @@ board = ["X", "X", "X", " ", " ", " ", " ", " ", " "]
 puts board
 def won?(board)
 WIN_COMBINATIONS(board)
-
 end
