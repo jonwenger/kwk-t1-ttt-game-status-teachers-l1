@@ -7,8 +7,6 @@ end
 board = ["X", "X", "X", " ", " ", " ", " ", " ", " "]
 puts board
 def won?(board)
- horizontal_win
- verical_win
- diag_win
+WIN_COMBINATIONS(board)
 
 end
